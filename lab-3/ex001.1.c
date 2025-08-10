@@ -6,16 +6,22 @@ int main()
     scanf("%f", &num1);
     printf("Enter number 2:");
     scanf("%f", &num2);
-    if(num2 !=0)
-          printf("Calculator Menu:");
-          printf("1. +");
-          printf("2. -");
-          printf("3. *");
-          printf("4. /");
-          printf("5.  ");
-          printf("Ans:%.2f + %.2f =%.2f", num1, num2, num1+num2);
-    if
-          (printf("Error divided by zero\n"));
+    if(num2 !=0) {
+       printf("Calculator Menu:\n");
+          printf("1. +\n");
+          printf("2. -\n");
+          printf("3. *\n");
+          printf("4. /\n");
+          scanf("%e", &num1);
+    } if (num1+num2) {
+          printf("Choose menu:1\n");
+          scanf("%e", &num1);         
+    } if (num1+num2){
+          printf("Ans:3+6=9");
+    }
     return 0;
-
-}
+      
+    }
+         
+       
+    
